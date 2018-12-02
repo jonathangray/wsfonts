@@ -10,13 +10,13 @@
  * In no event will the author be held liable for damages arising from the use
  * of this font.
  *
- * psf2bsd --name=tamsyn10x20 --first=32 --typeface=Tamsyn Tamsyn10x20r.psf
+ * psf2bsd --name=tamsyn10x20 --first=32 --typeface="Tamsyn 10x20" Tamsyn10x20r.psf
  */
 
 static u_char tamsyn10x20_data[];
 
-static struct wsdisplay_font tamsyn10x20 = {
-	"Tamsyn",			/* typeface name */
+struct wsdisplay_font tamsyn10x20 = {
+	"Tamsyn 10x20",			/* typeface name */
 	0,				/* index */
 	' ',				/* firstchar */
 	256 - ' ',			/* numchars */
